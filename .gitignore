@@ -1,0 +1,36 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore model checkpoints
+checkpoints/
+
+# Ignore datasets
+/data/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment files
+.env
+venv/
+ENV/
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore logs
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore test outputs
+*.out
+*.tmp
+
+# Ignore backup files
+*~
